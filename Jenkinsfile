@@ -33,7 +33,7 @@ pipeline {
         }
         stage('Deploy to Production') {
             steps {
-                echo 'Deploy to Production – Promote build to production EC2 instance using AWS CodeDeploy.'
+                echo 'Deploy to Production – Promote build to production EC2 instance using AWS.'
             }
         }
     }
